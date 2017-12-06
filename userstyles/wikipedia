@@ -1,0 +1,47 @@
+@-moz-document domain("wikipedia.org") {
+/* primary background */
+body, .mw-body, #mw-head, #content .gallerybox div.thumb {
+	background-color: #111;    
+}
+/* primary text */
+h1, h2, h3, h4, h5, h6, div, span, .tocnumber, p, .infobox, table.wikitable caption {
+ 	color: #999;
+}
+/* panel background */
+pre, .toc, #toc, .navbox-even, .catlinks, table.ambox, .infobox {
+    background-color: #181818;
+}
+/* links */
+a, .mw-parser-output a.external {
+    color: #4b43db;
+}
+/* visited links */
+a:visited {
+    color: #8859c3;
+}
+/* top nav tabs text */
+div.vectorTabs li.selected a, div.vectorTabs li.selected a:visited {
+    color: #888
+}
+/* top nav tabs background */
+div.vectorTabs span {
+    background: #181818;
+}
+/* image panels */
+div.thumbinner {
+    background-color: #222;
+    border: none;
+}
+/* table headers */
+tr + tr > .navbox-abovebelow, tr + tr > .navbox-group, tr + tr > .navbox-image, tr + tr > .navbox-list {
+    border-top: none;
+}
+/* bottom topic navigation */
+.navbox-odd {
+ 	background-color: #111;   
+}
+.navbox-title, .navbox-group, .navbox th, .navbox-abovebelow {
+    background: #181818;
+	background-color: #181818;
+}
+}
